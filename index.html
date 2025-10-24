@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú de Opciones</title>
+  <link rel="stylesheet" href="hojadeestilos.css">
+</head>
+<body>
+  <h1>Sistema de Menú</h1>
+
+  <div class="contenedor">
+    <label for="opciones">Seleccione una opción:</label>
+    <select id="opciones">
+      <option value="">-- Elegir --</option>
+      <option value="50">50</option>
+      <option value="200">200</option>
+    </select>
+
+    <button onclick="ejecutarOpcion()">Ejecutar</button>
+
+    <p id="mensaje">Esperando selección...</p>
+  </div>
+
+  <script src="ejercicio03.js"></script>
+</body>
+</html>
